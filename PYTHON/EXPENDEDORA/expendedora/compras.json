@@ -1,0 +1,16 @@
+[
+    {
+        "codigo": "B1",
+        "producto": "Agua",
+        "precio": 1.0,
+        "dinero_recibido": 5.0,
+        "vuelto": 4.0
+    },
+    {
+        "codigo": "A1",
+        "producto": "Soda",
+        "precio": 1.5,
+        "dinero_recibido": 2.0,
+        "vuelto": 0.5
+    }
+]

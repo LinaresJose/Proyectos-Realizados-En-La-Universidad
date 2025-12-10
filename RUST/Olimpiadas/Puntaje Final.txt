@@ -1,0 +1,4 @@
+Nombre | Puntajes Jurado (Totales) | Puntaje Final
+Juan García | 7.80, 9.60, 6.80, 5.40, 8.60 | 7.73
+Miguel Martínez | 7.20, 7.00, 5.80, 8.20, 9.00 | 7.47
+Carlos Guillen | 10.00, 9.00, 8.60, 7.40, 8.20 | 8.60

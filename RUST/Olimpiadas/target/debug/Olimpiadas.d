@@ -1,0 +1,1 @@
+C:\Users\jose\ linares\Desktop\IUTPAL\PROGRAMAS\RUST\Olimpiadas\target\debug\Olimpiadas.exe: C:\Users\jose\ linares\Desktop\IUTPAL\PROGRAMAS\RUST\Olimpiadas\src\main.rs C:\Users\jose\ linares\Desktop\IUTPAL\PROGRAMAS\RUST\Olimpiadas\src\procesamiento.rs

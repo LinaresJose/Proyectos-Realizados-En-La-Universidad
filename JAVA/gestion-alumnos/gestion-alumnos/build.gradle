@@ -1,0 +1,35 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '4.0.0'
+	id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'com.sistema.alumnos'
+version = '0.0.1-SNAPSHOT'
+description = 'API RESTful para la gestión de alumnos (CRUD)'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // REEMPLAZAR 'spring-boot-starter-webmvc' por:
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // ELIMINAR la línea:
+    // implementation 'org.springframework.boot:spring-boot-starter-webservices'
+
+    runtimeOnly 'com.h2database:h2'
+    // ... (El resto de las dependencias de prueba pueden quedarse como están)
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

@@ -1,0 +1,30 @@
+{{define "inicio"}}
+    {{template "cabecera"}}
+    <br/>
+    <h2>Lista de Empleados</h2>
+    <a href="/crear" class="btn btn-primary mb-3">Agregar Nuevo Empleado</a>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{range .}} 
+            <tr>
+                <td>{{.Id}}</td>
+                <td>{{.Nombre}}</td>
+                <td>{{.Correo}}</td>
+                <td>
+                    <a href="/editar?id={{.Id}}" class="btn btn-warning btn-sm">Editar</a> |
+                    <a href="/borrar?id={{.Id}}" class="btn btn-danger btn-sm">Borrar</a>
+                </td>
+            </tr>
+            {{end}}
+        </tbody>
+    </table>
+    {{template "pie"}}
+{{end}}
